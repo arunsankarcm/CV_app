@@ -1,0 +1,43 @@
+/* education.css */
+
+.education-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.education-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.education-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.education-container label {
+    margin-bottom: 8px;
+}
+
+.education-container input {
+    padding: 8px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.education-container button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.education-container button:hover {
+    background-color: #0056b3;
+}
